@@ -1,0 +1,66 @@
+@import '~govuk-frontend/govuk/all';
+$govuk-link-colour: #1d70b8;
+$govuk-link-hover-colour: #003078;
+$govuk-link-visited-colour: #4c2c92;
+$govuk-link-active-colour: #0b0c0c;
+$govuk-secondary-text-colour: #505a5f;
+
+/* As we don't import styles in cop-ui yet
+ * The pagination code uses a lot of
+ * overrides here and in the html
+ * to achieve design needs.
+ * This will be refactored once cop-ui 
+ * moves to HODS rather than GDS
+*/
+
+/* Reset buttons for this instance only */
+.pagination--list-item button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  background: none;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pagination--list-item button:hover,
+.pagination--list-item button:focus {
+  background: none;
+}
+
+/* Pagination styles */
+
+.pagination--list {
+  padding: 0;
+  list-style: none;
+}
+
+.pagination--list-item {
+  display: inline-block;
+}
+
+.pagination--link {
+  text-decoration: none;
+  color: $govuk-link-colour;
+}
+
+.pagination--link-active,
+.pagination--link-active:visited {
+  font-weight: bold;
+  color: $govuk-link-active-colour;
+}
+
+.pagination--ellipsis {
+  font-weight: bold;
+  display: inline-block;
+  background-color: transparent;
+  color: $govuk-secondary-text-colour;
+}
+
+.pagination--summary {
+  @include mq($from: tablet) {
+    float: right;
+  }
+}

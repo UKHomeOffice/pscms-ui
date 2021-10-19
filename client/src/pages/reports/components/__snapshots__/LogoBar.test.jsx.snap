@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogoBar matches snapshot 1`] = `
+<div
+  className="logo-bar"
+>
+  <button
+    id="reload"
+    onClick={[Function]}
+    type="button"
+  >
+    pages.report.logo-bar.reload
+  </button>
+  <button
+    id="fullscreen"
+    onClick={[Function]}
+    type="button"
+  >
+    pages.report.logo-bar.fullscreen
+  </button>
+</div>
+`;

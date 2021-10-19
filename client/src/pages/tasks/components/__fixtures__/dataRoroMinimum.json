@@ -1,0 +1,19 @@
+{
+  "parentBusinessKey": {
+    "businessKey": "CERB-TESTING-123456"
+  },
+  "businessKey": "DEV-TESTING-12345",
+  "category": "target_B",
+  "threatIndicators": [
+    {
+      "userfacingtext": "National Security at the Border"
+    }
+  ],
+  "roro": {
+    "details": {
+      "strategy": {
+        "strategy": "Alcohol"
+      }
+    }
+  }
+}
