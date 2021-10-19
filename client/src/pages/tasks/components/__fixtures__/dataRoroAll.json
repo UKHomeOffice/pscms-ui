@@ -1,0 +1,117 @@
+{
+  "parentBusinessKey": {
+    "businessKey": "CERB-TESTING-123456"
+  },
+  "businessKey": "DEV-TESTING-12345",
+  "category": "target_B",
+  "operation": "Op name",
+  "threatIndicators": [
+    {
+      "userfacingtext": "National Security at the Border"
+    }
+  ],
+  "roro": {
+    "details": {
+      "vessel": {
+        "name": "VALENTINE",
+        "company": "COBELFRET FERRIES NV"
+      },
+      "vehicle": {
+        "make": "ford",
+        "model": "fiesta",
+        "colour": "blue",
+        "registrationNationality": {
+          "nationality": "Algeria"
+        },
+        "registrationNumber": "fg3478",
+        "trailer": {
+          "regNumber": "213123",
+          "type": {
+            "name": "Car transporter"
+          },
+          "registrationNationality": {
+            "nationality": "Albania"
+          }
+        }
+      },
+      "account": {
+        "name": "IF Logistics",
+        "number": "IF-123482"
+      },
+      "passengers": [
+        {
+          "dob": "01/01/1990",
+          "docExpiry": "02/02/2022",
+          "firstName": "Barney",
+          "middleName": "Arthur",
+          "lastName": "Flintstone",
+          "nationality": {
+            "nationality": "United Kingdom"
+          },
+          "sex": {
+            "name": "male"
+          },
+          "docType": {
+            "shortDescription": "Passport"
+          },
+          "docNumber": "12345"
+        },
+        {
+          "firstName": "Betty",
+          "middleName": "Jane",
+          "lastName": "Smith",
+          "dob": "18/02/1970",
+          "nationality": {
+            "nationality": "Australia"
+          },
+          "sex": {
+            "name": "Male"
+          },
+          "docType": {
+            "shortDescription": "Passport"
+          },
+          "docNumber": "4321",
+          "docExpiry": "01/01/2024"
+        }
+      ],
+      "load": {
+        "manifestedLoad": "car parts",
+        "manifestWeight": "123"
+      },
+      "checks": [
+        {
+          "nominalType": "bank",
+          "checks": [
+            {
+              "name": "ARENA"
+            },
+            {
+              "name": "Automatic Number Plate Recognition"
+            }
+          ],
+          "comments": "comment"
+        }
+      ],
+      "driver": {
+        "firstName": "Fred",
+        "lastName": "Flintstone",
+        "dob": "12/07/1991",
+        "docNumber": "123",
+        "docExpiry": "22/03/2022",
+        "middleName": "Sam",
+        "nationality": {
+          "nationality": "United Kingdom"
+        },
+        "sex": {
+          "name": "male"
+        },
+        "docType": {
+          "shortDescription": "Passport"
+        }
+      },
+      "strategy": {
+        "strategy": "Alcohol"
+      }
+    }
+  }
+}

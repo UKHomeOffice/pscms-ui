@@ -1,0 +1,75 @@
+$govuk-page-width: 1400px;
+
+@import '~formiojs/dist/formio.form.css';
+@import '~govuk-frontend/govuk/all';
+
+a {
+  cursor: pointer;
+}
+
+body {
+  overscroll-behavior-y: none;
+  font-family: 'nta', Arial, sans-serif;
+  margin: 0px;
+}
+
+.app-container {
+  @include govuk-width-container(1400px);
+  min-height: calc(100vh - 70px);
+}
+
+.field-required:after {
+  content: ' *';
+  color: red;
+}
+
+.govuk-input:disabled,
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  background-color: #f8f9fa;
+}
+.form-control {
+  background-color: #ffffff;
+}
+
+div[ref='input'] {
+  white-space: pre-wrap;
+}
+
+.cop-filters-container {
+  border: 1px solid #b1b4b6;
+  padding: 0 !important;
+  margin-bottom: 1em;
+}
+.cop-filters-header {
+  background-color: #b1b4b6;
+  padding: 1em;
+}
+.cop-filters-header .govuk-heading-s {
+  margin: 0;
+}
+.cop-filters-controls {
+  margin: 1em;
+}
+.cop-filters-options h3 {
+  margin-left: 1em;
+}
+ul.cop-filters-options {
+  padding-inline-start: 1em !important;
+}
+button.govuk-link {
+  color: #1d70b8;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

@@ -1,0 +1,358 @@
+{
+  "keycloak": {
+    "initialising": "Initialising single sign on"
+  },
+  "back": "Back to dashboard",
+  "loading": "Loading...",
+  "submitting": "Submitting your form....",
+  "warning": "Warning",
+  "error": {
+    "api": {
+      "details": "Error details",
+      "title": "We are experiencing technical problems",
+      "409": "The form has already been submitted",
+      "401/403": "Unable to complete your request due to authorization issues.",
+      "400": "Unable to complete your request due to form submission issues.",
+      "50x": "Internal system error",
+      "contact-support-prefix": "Please",
+      "contact-support-link-text": "contact support",
+      "error-info": "URL {{path}} - Code: {{status}}"
+    },
+    "page": {
+      "title": "An exception occurred",
+      "description": "Please contact support",
+      "retry": "Retry operation"
+    },
+    "page-not-found": {
+      "title": "The page you requested could not be found.",
+      "check-address": "If you typed the web address, check it is correct.",
+      "paste-address": "If you pasted the web address, check you copied the entire address or use the link to direct you to the",
+      "redirect-link": "COP dashboard"
+    }
+  },
+  "header": {
+    "my-profile": "My profile",
+    "service-name": "Central Operations Platform",
+    "sign-out": "Sign out",
+    "support": "Support",
+    "new-service-1": "This is a new service - your",
+    "new-service-2": "feedback",
+    "new-service-3": "will help use improve it"
+  },
+  "footer": {
+    "help": "Help",
+    "accessibility": "Accessibility Statement",
+    "privacy": "Privacy and Cookie Policy",
+    "support-links": "Support links",
+    "copyright": "© Crown copyright"
+  },
+  "pages": {
+    "accessibility": {
+      "title": "Accessibility Statement | Central Operations Platform"
+    },
+    "cases": {
+      "title": "Cases",
+      "caption": "Case view",
+      "heading": "Cases",
+      "heading-help": "Enter a COP number to search for cases, e.g. COP-20200406-24.",
+      "heading-warning": "Please note all actions are audited.",
+      "search-placeholder": "Search using a COP prefixed number",
+      "search-message": "Searching for cases...",
+      "loading-case": "Loading case details",
+      "results-panel": {
+        "title": "Search results",
+        "caption": "Number of cases found"
+      },
+      "details-panel": {
+        "case-actions": {
+          "heading": "Case actions"
+        },
+        "case-attachments": {
+          "heading": "Case attachments",
+          "subheading": "View attachments",
+          "loading-attachments": "Loading attachments...",
+          "table": {
+            "header-1": "Name",
+            "header-2": "Uploaded on",
+            "header-3": "Uploaded by",
+            "no-attachments": "No attachments associated with case"
+          }
+        },
+        "case-history": {
+          "heading": "Case history",
+          "select-input-order": "Order by",
+          "select-input-latest": "Latest process start date",
+          "select-input-earliest": "Earliest process start date",
+          "form-loading": "Loading form..."
+        },
+        "case-intro": {
+          "copy-button-uncopied": "Copy case link",
+          "copy-button-copied": "Case link copied"
+        },
+        "case-metrics": {
+          "heading": "Case metrics",
+          "summary": "Basic metrics related to"
+        }
+      }
+    },
+    "filters": {
+      "title": "Filter",
+      "apply": "Apply filters",
+      "clear": "Clear filters",
+      "groups": {
+        "title": "Groups"
+      }
+    },
+    "form": {
+      "title": "Form | Central Operations Platform",
+      "submission": {
+        "success-message": "Your form was successfully submitted",
+        "your-reference": "Your reference is {{reference}}",
+        "close": "Close confirmation"
+      },
+      "error": {
+        "form": {
+          "title": "There is a problem with your form"
+        }
+      }
+    },
+    "forms": {
+      "list": {
+        "heading": "Operational forms",
+        "size": "{{count}} forms",
+        "title": "Operational forms | Central Operations Platform",
+        "load-more": "Load more",
+        "search": "Search for a form",
+        "search-placeholder": "Search form name",
+        "search-hint": "Must be greater than 3 characters"
+      },
+      "back-link": "Back to forms"
+    },
+    "home": {
+      "title": "Central Operations Platform",
+      "heading": "Operational dashboard",
+      "card": {
+        "cases": {
+          "title": "Cases",
+          "footer": "View active or closed cases"
+        },
+        "forms": {
+          "title": "Forms",
+          "footer": "Submit a form"
+        },
+        "group-tasks": {
+          "title": "tasks assigned to your team",
+          "footer": "Overall tasks assigned to your team"
+        },
+        "reports": {
+          "title": "Reports",
+          "footer": "View operational reports"
+        },
+        "targets": {
+          "title": "targets assigned to your teams",
+          "footer": "Targets assigned to your teams"
+        },
+        "tasks": {
+          "title": "tasks assigned to you",
+          "footer": "Tasks assigned to you"
+        }
+      }
+    },
+    "login": {
+      "title": "Login"
+    },
+    "privacy": {
+      "title": "Privacy and Cookie Policy | Central Operations Platform"
+    },
+    "report": {
+      "title": "Report | Central Operations Platform",
+      "logo-bar": {
+        "reload": "Reload",
+        "fullscreen": "View fullscreen"
+      }
+    },
+    "reports": {
+      "list": {
+        "heading": "Operational reports",
+        "size": "{{count}} reports",
+        "title": "Operational reports | Central Operations Platform"
+      },
+      "further-info": {
+        "intro": "See our",
+        "link": "reports help guide (opens in new tab)",
+        "outro": "for further information."
+      }
+    },
+    "target": {
+      "labels": {
+        "warning-data": "Category",
+        "strategy": "Control strategy",
+        "threat-indicators": "Threat indicators",
+        "selection-reasoning": "Selection comments",
+        "operation": "Operation",
+        "targeting-hub": "Targeting hub",
+        "targeter": "Targeter",
+        "phone": "Phone",
+        "interested-party": "Interested party",
+        "target-type": "Target type",
+        "target-reference": "Target reference",
+        "passenger": {
+          "item": "passenger",
+          "label": "Passenger"
+        },
+        "nationality": {
+          "item": "nationality",
+          "label": "Nationality"
+        },
+        "date-of-birth": {
+          "item": "dateOfBirth",
+          "label": "Date of birth"
+        },
+        "sex": {
+          "item": "Sex",
+          "label": "Sex"
+        },
+        "doc-type": {
+          "item": "docType",
+          "label": "Travel document type"
+        },
+        "doc-expiry": {
+          "item": "DocExpiry",
+          "label": "Travel document expiry"
+        },
+        "driver": {
+          "item": "driver",
+          "label": "Driver"
+        },
+        "vehicle": {
+          "item": "vehicle",
+          "label": "Vehicle",
+          "make": {
+            "item": "vehicleMake",
+            "label": "Vehicle make"
+          },
+          "model": {
+            "item": "vehicleModel",
+            "label": "Vehicle model"
+          },
+          "colour": {
+            "item": "vehicleColour",
+            "label": "Vehicle colour"
+          },
+          "reg-nationality": {
+            "item": "vehicleRegNationality",
+            "label": "Vehicle registration nationality"
+          }
+        },
+        "trailer": {
+          "item": "trailer",
+          "label": "Trailer",
+          "type": {
+            "item": "trailerType",
+            "label": "Trailer type"
+          },
+          "reg-nationality": {
+            "item": "trailerRegNationality",
+            "label": "Trailer registration nationality"
+          }
+        },
+        "consignment": {
+          "item": "consignment",
+          "label": "Consignment and haulier",
+          "manifested-load": {
+            "item": "manifestedLoad",
+            "label": "Manifested Load"
+          },
+          "manifested-weight": {
+            "item": "manifestedWeight",
+            "label": "Manifested Weight"
+          },
+          "consignor": {
+            "item": "consignor",
+            "label": "Consignor"
+          },
+          "consignor-address": {
+            "item": "consignorAddress",
+            "label": "Address"
+          },
+          "consignee": {
+            "item": "consignee",
+            "label": "Consignee"
+          },
+          "consignee-address": {
+            "item": "consigneeAddress",
+            "label": "Address"
+          },
+          "haulier": {
+            "item": "haulier",
+            "label": "Haulier"
+          },
+          "haulier-address": {
+            "item": "haulierAddress",
+            "label": "Address"
+          }
+        }
+      },
+      "banner-title": "Important",
+      "banner-heading": "Warnings in place",
+      "left-panel": {
+        "heading": "Pre-arrival details",
+        "section-heading": "System checks",
+        "table-heading-col-one": "Nominal",
+        "table-heading-col-two": "System",
+        "table-heading-col-three": "Comments"
+      },
+      "claimed-statement": "Currently claimed by",
+      "button-next": "Record outcome",
+      "button-cancel": "Cancel"
+    },
+    "targets": {
+      "caption": "All targets",
+      "heading": "{{count}} targets",
+      "status": "Open",
+      "title": "Targets | Central Operations Platform"
+    },
+    "task": {
+      "submission": {
+        "success-message": "You have successfully completed the task",
+        "error": {
+          "due-date-change": "Task due date must be a real date"
+        }
+      },
+      "actions": {
+        "complete": "Complete"
+      },
+      "no-form": "Claim the task to view it",
+      "title": "Task",
+      "category": "Category",
+      "due": "Due",
+      "priority": "Priority",
+      "assignee": "Assignee",
+      "current-assignee": "You are the current assignee",
+      "unassigned": "Unassigned"
+    },
+    "tasks": {
+      "yours": {
+        "caption": "Your tasks",
+        "heading": "{{count}} tasks assigned to you",
+        "status": "Open",
+        "title": "Your tasks | Central Operations Platform"
+      },
+      "groups": {
+        "caption": "Your team's tasks",
+        "heading": "{{count}} tasks assigned to your team",
+        "status": "Open",
+        "title": "Your team's tasks | Central Operations Platform"
+      }
+    },
+    "groups": {
+      "error-heading": "No team added to your profile",
+      "user-has-no-group": "You need to have your team added to your profile to use the Central Operations Platform.",
+      "support-link": "Go to IT Now ",
+      "support-link-message": "to tell us which team you’re in and we'll add it to your profile.",
+      "select-group": "Select Team",
+      "save-group": "Save",
+      "change-group": "change"
+    }
+  }
+}

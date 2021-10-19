@@ -1,0 +1,6 @@
+@import '~govuk-frontend/govuk/settings/colours-applied';
+
+.reports li {
+  padding: 10px 0 15px;
+  border-bottom: 1px solid $govuk-border-colour;
+}

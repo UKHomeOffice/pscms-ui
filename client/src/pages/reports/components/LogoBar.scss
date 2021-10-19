@@ -1,0 +1,42 @@
+@import '~govuk-frontend/govuk/settings/all';
+
+.logo-bar {
+  align-items: center;
+  bottom: 0px;
+  display: flex;
+  font-family: $govuk-font-family-nta;
+  font-size: 12px;
+  height: 35px;
+  position: absolute;
+  right: 10px;
+
+  button {
+    border: none;
+    background-color: transparent;
+    color: govuk-colour('dark-grey');
+    cursor: pointer;
+    font-size: smaller;
+    font-weight: $govuk-font-weight-bold;
+    padding: 8px;
+    text-transform: uppercase;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    &:not(:last-child) {
+      padding-right: 0px;
+      &:after {
+        content: '|';
+        margin-left: 8px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .logo-bar {
+    display: none;
+  }
+}
