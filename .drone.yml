@@ -69,7 +69,7 @@ steps:
       from_secret: NGINX_TAG
   when:
     branch:
-    - master
+    - main
     event:
     - promote
     target:
@@ -87,7 +87,7 @@ steps:
       from_secret: SLACK_WEBHOOK
   when:
     branch:
-    - master
+    - main
     event:
     - promote
     status:
