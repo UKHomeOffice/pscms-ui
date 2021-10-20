@@ -79,7 +79,7 @@ steps:
   pull: if-not-exists
   image: plugins/slack
   settings:
-    channel: pscms-deployments
+    channel: cop-deployments
     template: "{{#build.deployTo}}\n  *{{repo.name}} - Build {{build.number}} - {{uppercasefirst build.deployTo}} - {{uppercase build.status}}*\n  {{build.link}}\n{{else}}\n  *{{repo.name}} - Build {{build.number}} - Development - {{uppercase build.status}}*\n  {{build.link}}\n{{/build.deployTo}}\n"
     username: Drone Build Watcher
   environment:
