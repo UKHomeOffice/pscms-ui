@@ -1,10 +1,10 @@
 spring:
   application:
-    name: cop-ui
+    name: pscms-ui
 
 aws:
   secretsmanager:
-    name: cop-ui
+    name: pscms-ui
     prefix: /secret
     fail-fast: false
     profile-separator: _
