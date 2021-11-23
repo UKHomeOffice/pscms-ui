@@ -10,7 +10,7 @@ spec:
   - from:
     - namespaceSelector:
         matchLabels:
-          name: ingress-internal
+          name: ingress-external
     ports:
       - port: 8443
         protocol: TCP
