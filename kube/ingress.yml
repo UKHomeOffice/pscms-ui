@@ -7,7 +7,7 @@ metadata:
     cert-manager.io/solver: http01
   annotations:
     cert-manager.io/enabled: "true"
-    kubernetes.io/ingress.class: "nginx-internal"
+    kubernetes.io/ingress.class: "nginx-external"
     ingress.kubernetes.io/backend-protocol: "HTTPS"
     ingress.kubernetes.io/force-ssl-redirect: "true"
     ingress.kubernetes.io/proxy-send-timeout: "3600"
@@ -16,7 +16,7 @@ metadata:
     ingress.kubernetes.io/whitelist-source-range: {{.INGRESS_WHITELISTED_IPS}}
 spec:
   rules:
-  - host: www.dev.pscms.internal.cop.homeoffice.gov.uk
+  - host: {{.PSCMS_UI_URL}}
     http:
       paths:
       - backend:
@@ -25,5 +25,5 @@ spec:
         path: /
   tls:
   - hosts:
-    - www.dev.pscms.internal.cop.homeoffice.gov.uk
-    secretName: www.dev.pscms.internal.cop.homeoffice.gov.uk-cmio
+    - {{.PSCMS_UI_URL}}
+    secretName: {{.PSCMS_UI_URL}}-cmio
