@@ -16,7 +16,7 @@ metadata:
     ingress.kubernetes.io/whitelist-source-range: {{.INGRESS_WHITELISTED_IPS}}
 spec:
   rules:
-  - host: {{.PSCMS_UI_URL}}
+  - host: www.dev.pscms.internal.cop.homeoffice.gov.uk
     http:
       paths:
       - backend:
@@ -25,5 +25,5 @@ spec:
         path: /
   tls:
   - hosts:
-    - {{.PSCMS_UI_URL}}
-    secretName: {{.PSCMS_UI_URL}}-cmio
+    - www.dev.pscms.internal.cop.homeoffice.gov.uk
+    secretName: www.dev.pscms.internal.cop.homeoffice.gov.uk-cmio
