@@ -74,8 +74,8 @@ steps:
     - main
     event:
     - push
-    target:
-    - dev
+  #  target:
+  #  - dev
 
 - name: notify
   pull: if-not-exists
