@@ -23,6 +23,18 @@ spec:
         name: {{.PSCMS_UI_NAME}}
         service: {{.PSCMS_UI_NAME}}
     spec:
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: name
+                  operator: In
+                  values:
+                  - {{.PSCMS_UI_NAME}}
+              topologyKey: failure-domain.beta.kubernetes.io/zone
       restartPolicy: Always
       securityContext:
         runAsUser: 1000
